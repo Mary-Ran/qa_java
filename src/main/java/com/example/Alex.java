@@ -7,8 +7,8 @@ public class Alex extends Lion {
     List<String> friends = Arrays.asList("Марти", "Глория", "Мелман");
     String placeOfLiving = "Нью-Йоркский зоопарк";
 
-    public Alex (String sex) throws Exception {
-        super("Самец");
+    public Alex (Feline feline, String sex) throws Exception {
+        super(feline, "Самец");
     }
 
     @Override
